@@ -22,14 +22,14 @@ function Home() {
             <button className='btn dark-btn'><img src={info_icon} alt="" />More Info</button>
             
           </div>
-          <TitleCard/>
+          <TitleCard category={"now_playing"}/>
         </div>
       </div>
       <div className="more-cards">
-        <TitleCard title={"Blockbustor Movies"}/>
-        <TitleCard title={"Only On Nteflix"}/>
-        <TitleCard title={"Upcoming"}/>
-        <TitleCard title={"Top Pock For You"}/>
+        <TitleCard title={"Top Pock For You"} category={"top_rated"}/>
+        <TitleCard title={"Blockbustor Movies"} category={"popular"}/>
+        <TitleCard title={"Only On Nteflix"} category={"popular"}/>
+        <TitleCard title={"Upcoming"} category={"upcoming"}/>
       </div>
       <Footer/>
     </div>
